@@ -1,6 +1,7 @@
 // Problem Link: https://leetcode.com/problems/minimum-size-subarray-sum/
     
-class Solution:
+import sys
+    class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         min_length=sys.maxsize
         ws=0
